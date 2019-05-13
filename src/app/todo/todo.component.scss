@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
+
+h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.new-todo-input, .todo {
+  padding: 0;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.new-todo-input {
+  margin: 25px 0;
+  height: 50px;
+}
+
+.todo {
+  display: flex;
+  //justify-content:  : space-between;
+  padding: 0 20%;
+  align-content: center;
+
+  height: 50px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: white;
+  overflow: hidden;
+
+  //transition: 125ms ease background;
+}
